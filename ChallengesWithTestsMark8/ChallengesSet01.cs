@@ -15,6 +15,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+            
         }
 
         public static double Subtract(double minuend, double subtrahend)
@@ -51,7 +52,6 @@ namespace ChallengesWithTestsMark8
             {
                 Console.WriteLine("Your second number is smaller than the first one.");
             }
-            return ;
             
         }
 
