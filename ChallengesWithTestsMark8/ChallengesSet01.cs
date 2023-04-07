@@ -20,28 +20,15 @@ namespace ChallengesWithTestsMark8
 
         public static double Subtract(double minuend, double subtrahend)
         {
-            Console.WriteLine("Please choose your first number.");
-            minuend = double.Parse(Console.ReadLine());
-            Console.WriteLine("Please choose your second number.");
-            subtrahend = double.Parse(Console.ReadLine());
             return minuend - subtrahend;
         }
 
         public static int Add(int number1, int number2)
         {
-            Console.WriteLine("Please choose your first number.");
-            number1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please choose your second number");
-            number2 = int.Parse(Console.ReadLine());
             return (number1 + number2);
         }
         public static void GetSmallestNumber(int number1, int number2)
         {
-            Console.WriteLine("Please choose your first number.");
-            number1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please choose your second number.");
-            number2 = int.Parse(Console.ReadLine());
-            
             
             
             if(number1 < number2)
@@ -57,10 +44,6 @@ namespace ChallengesWithTestsMark8
 
         public static long Multiply(long factor1, long factor2)
         {
-            Console.WriteLine("Please choose your first number.");
-            factor1 = long.Parse(Console.ReadLine());
-            Console.WriteLine("Please choose your second number.");
-            factor2 = long.Parse(Console.ReadLine());
             return factor1 * factor2;
             
         }
